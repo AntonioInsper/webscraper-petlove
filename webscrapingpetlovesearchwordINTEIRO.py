@@ -56,7 +56,7 @@ time.sleep(5)
 
 lista_consol = []
 
-searchwords  = searchwords[19:20] ## PARA TESTES, COMENTE DEPOIS
+#searchwords  = searchwords[19:20] ## PARA TESTES, COMENTE DEPOIS
 
 for word in searchwords:
     search = driver.find_element(By.CLASS_NAME, "search__input-petlove")

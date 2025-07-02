@@ -9,3 +9,8 @@ Seu modo de funcionamento: Ele joga as palavras na lista searchwords na barra de
 Volumetria de dados bem grande, é recomendado rodar menos searchwords de cada vez ou rodar o bot em paralelo em varias instancias com pares diferentes de searchwords.
 
 Algumas vezes o bot não ira paginar na pagina de pesquisa, colecionando os links apenas da primeira pagina de consulta, rodar o bot em paralelo em multiplas instancias com menos searchwords funcionou.
+
+
+O modo Headless é o padrão, para acompanhar o processo, comente a linha 45.
+
+Instalação de Firefox é necessária devido ao Geckodriver.
